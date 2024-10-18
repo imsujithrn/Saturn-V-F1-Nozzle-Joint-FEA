@@ -23,7 +23,7 @@ The objective is to:
 - F1 Engine Nozzle and Bolted Flange  
   ![F1 Engine Nozzle](images/f1_nozzle.png)
 
-- ANSYS Model:  
+- ANSYS Model Closeup:  
   ![ANSYS Model](images/ansys_model_closeup.png)
 
 ## File Structure
