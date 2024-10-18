@@ -18,13 +18,13 @@ The objective is to:
 
 ### Visual Overview:
 - Saturn V Rocket  
-  ![Saturn V Rocket](images/saturn_v.jpg)
+  ![Saturn V Rocket](images/saturn_v.png)
   
 - F1 Engine Nozzle and Bolted Flange  
-  ![F1 Engine Nozzle](images/f1_nozzle.jpg)
+  ![F1 Engine Nozzle](images/f1_nozzle.png)
 
 - ANSYS Model:  
-  ![ANSYS Model](images/ansys_model.jpg)
+  ![ANSYS Model](images/ansys_model_closeup.png)
 
 ## File Structure
 
@@ -36,9 +36,9 @@ Saturn-V-F1-Nozzle-Joint-FEA/
 ├── README.md
 ├── LICENSE
 ├── /images/
-│   ├── saturn_v.jpg
-│   ├── f1_nozzle.jpg
-│   └── ansys_model.jpg
+│   ├── saturn_v.png
+│   ├── f1_nozzle.png
+│   └── ansys_model_closeup.png
 └── /FEA_Simulations/
     ├── SaturnV_F1_ANSYS_Model.wbpz
     ├── SaturnV_F1_Mesh.stl
@@ -89,14 +89,14 @@ We will simulate the bolted joint using **non-linear finite element analysis** i
 
 2. **Open the ANSYS Project**:
    - Open **ANSYS Workbench**.
-   - In ANSYS, go to **File > Open** and select the `FEA_Simulations/SaturnV_F1_ANSYS_Model.ansyswb` file.
+   - In ANSYS, go to **File > Open** and select the `FEA_Simulations/SaturnV_F1_ANSYS_Model.wbpz` file.
 
 3. **Load the Geometry and Mesh**:
-   - Ensure that the geometry and mesh file (`FEA_Simulations/SaturnV_F1_Mesh.agdb`) is properly linked within the project.
+   - Ensure that the geometry and mesh file (`FEA_Simulations/SaturnV_F1_Mesh.stl`) is properly linked within the project.
    - If needed, re-mesh the model based on the setup provided.
 
 4. **Set the Material Properties**:
-   - Import the material data from `FEA_Simulations/SaturnV_F1_MaterialData.xml` into your ANSYS Workbench project to apply the correct material properties.
+   - Import the material data from `FEA_Simulations/SaturnV_F1_MaterialData.engd` into your ANSYS Workbench project to apply the correct material properties.
 
 5. **Run the Simulation**:
    - Set the boundary conditions for temperature and pressure as described in the problem specifications.
