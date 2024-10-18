@@ -29,7 +29,9 @@ The objective is to:
 ## File Structure
 
 Below is the structure of the repository:
+## Project Structure
 
+```plaintext
 Saturn-V-F1-Nozzle-Joint-FEA/
 ├── README.md
 ├── LICENSE
@@ -42,6 +44,8 @@ Saturn-V-F1-Nozzle-Joint-FEA/
     ├── SaturnV_F1_Mesh.stl
     ├── SaturnV_F1_SimulationResults.rst
     └── SaturnV_F1_MaterialData.engd
+
+```
 
 
 
