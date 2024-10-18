@@ -30,12 +30,26 @@ The objective is to:
 
 Below is the structure of the repository:
 
+Saturn-V-F1-Nozzle-Joint-FEA/
+├── README.md
+├── LICENSE
+├── /images/
+│   ├── saturn_v.jpg
+│   ├── f1_nozzle.jpg
+│   └── ansys_model.jpg
+└── /FEA_Simulations/
+    ├── SaturnV_F1_ANSYS_Model.wbpz
+    ├── SaturnV_F1_Mesh.stl
+    ├── SaturnV_F1_SimulationResults.rst
+    └── SaturnV_F1_MaterialData.engd
+
+
 
 ### File Descriptions:
-- **`SaturnV_F1_ANSYS_Model.ansyswb`**: The ANSYS Workbench project file that contains the setup of the FEA model.
-- **`SaturnV_F1_Mesh.agdb`**: Geometry and meshing of the F1 nozzle and bolted flange.
+- **`SaturnV_F1_ANSYS_Model.wbpz`**: The ANSYS Workbench project file that contains the setup of the FEA model.
+- **`SaturnV_F1_Mesh.stl`**: Geometry and meshing of the F1 nozzle and bolted flange.
 - **`SaturnV_F1_SimulationResults.rst`**: The results file from running the analysis, which includes stress distributions, deformations, and safety margins.
-- **`SaturnV_F1_MaterialData.xml`**: Material properties data used in the simulation, including Young's modulus, Poisson's ratio, and thermal expansion coefficients.
+- **`SaturnV_F1_MaterialData.engd`**: Material properties data used in the simulation, including Young's modulus, Poisson's ratio, and thermal expansion coefficients.
 
 ## Analysis Objective
 
@@ -91,6 +105,15 @@ We will simulate the bolted joint using **non-linear finite element analysis** i
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, feel free to fork the repository and submit a pull request. Ensure your changes are well documented.
+
+images/: Contains the images related to the project, such as the Saturn V rocket, the F1 nozzle, and ANSYS model screenshots.
+FEA_Simulations/: Contains the ANSYS simulation files, including:
+.wbpz file for the Workbench project setup.
+Geometry and mesh file (.stl) used in the analysis.
+Simulation results file (.rst) for reviewing stress distribution and deformation.
+Material data file (.engd) that defines the properties for the nozzle and bolts.
+Results/: Contains any output results generated from the simulation, such as images or plots showing stress distribution and deformation of the nozzle.
+docs/: Includes documentation files such as the detailed problem specification and references used in the analysis.
 
 ## License
 
